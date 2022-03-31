@@ -27,12 +27,11 @@
     "type": "git",
     "url": "git@github.com:iwnstudio/permissions-validator.git"
   },
-  
   "bugs": {
     "url": "https://github.com/iwnstudio/permissions-validator/issues"
   },
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "typing": "dist/index.d.js",
   "scripts": {

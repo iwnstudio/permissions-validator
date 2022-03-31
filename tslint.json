@@ -1,0 +1,15 @@
+{
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "typedef": [
+      true,
+      "call-signature",
+      "property-declaration",
+      "arrow-parameter",
+      "parameter"
+    ],
+    "no-increment-decrement": false,
+    "no-else-after-return": false,
+    "max-line-length": false
+  }
+}

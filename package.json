@@ -1,0 +1,53 @@
+{
+  "name": "permissions-validator",
+  "author": "iwn studio <careers@iwn.studio>",
+  "contributors": [
+    {
+      "name": "Natalia Targowska",
+      "email": "natiin@users.noreply.github.com",
+      "url": "https://github.com/natiin"
+    },
+    {
+      "name": "Raff Paquin",
+      "email": "raffpaquin@users.noreply.github.com",
+      "url": "https://github.com/raffpaquin"
+    },
+    {
+      "name": "Roxanne Lessard",
+      "email": "roxannelessard@users.noreply.github.com",
+      "url": "https://github.com/roxannelessard"
+    }
+  ],
+  "description": "Simple tool to validate an array of permissions against a set of rules",
+  "keywords": [
+    "permissions",
+    "validator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iwnstudio/permissions-validator.git"
+  },
+  
+  "bugs": {
+    "url": "https://github.com/iwnstudio/permissions-validator/issues"
+  },
+  "license": "MIT",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "typing": "dist/index.d.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest --coverage",
+    "watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.3",
+    "jest": "^23.6.0",
+    "jest-junit": "^5.2.0",
+    "ts-jest": "^23.10.4",
+    "tslint": "5.11.0",
+    "tslint-config-airbnb": "5.9.2",
+    "typescript": "^3.3.0"
+  }
+}

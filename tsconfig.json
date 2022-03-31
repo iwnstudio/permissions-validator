@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "types": ["jest", "node"],
+    "lib": ["es2017"]
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "include": [
+    "./src"
+  ],
+  "compileOnSave": true
+}

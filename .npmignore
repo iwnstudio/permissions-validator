@@ -1,0 +1,10 @@
+.vscode
+coverage
+node_modules
+src
+.gitignore
+.npmignore
+jest.config.js
+junit.xml
+tsconfig.json
+tslint.json
